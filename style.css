@@ -1,0 +1,16 @@
+#logo {
+    
+    width:10vw;
+}
+
+.banner {
+width:100vw;
+position:relative;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 20vw;
+    position: relative;
+    top: -110px;
+}
