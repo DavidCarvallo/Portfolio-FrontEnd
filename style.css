@@ -5,12 +5,47 @@
 
 .banner {
 width:100vw;
-position:relative;
-}
+position: static;
+border-radius: 10px;
 
+}
+/* otra opcion para la foto de perfil
 .profile {
     border-radius: 50%;
     width: 20vw;
     position: relative;
     top: -110px;
+
+}
+
+colores 
+.color1 {color: #00030f;}
+.color2 {color: #052124;}
+.color3 {color: #133d43;}
+.color4 {color: #285d64;}
+.color5 {color: #468486;}
+*/
+
+.avatar {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top:-100px;
+}
+
+.avatar__image {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    top:-100px;
+    left: 15px;
+    position:relative;
+    
+}
+
+.redes a {
+color: black;
+
+height:
+    
 }
