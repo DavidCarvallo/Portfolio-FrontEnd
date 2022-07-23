@@ -1,51 +1,67 @@
-#logo {
-    
-    width:10vw;
+button  {
+    margin:2px;
 }
 
-.banner {
-width:100vw;
-position: static;
-border-radius: 10px;
-
-}
-/* otra opcion para la foto de perfil
-.profile {
-    border-radius: 50%;
-    width: 20vw;
-    position: relative;
-    top: -110px;
-
+body {
+    margin:0;
+    background: lightgray;
 }
 
-colores 
-.color1 {color: #00030f;}
-.color2 {color: #052124;}
-.color3 {color: #133d43;}
-.color4 {color: #285d64;}
-.color5 {color: #468486;}
-*/
-
-.avatar {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    top:-100px;
+:root {
+--main-color:white;
 }
 
-.avatar__image {
-    border-radius: 50%;
-    height: 100%;
-    width: 100%;
-    top:-100px;
-    left: 15px;
-    position:relative;
-    
+.bg {
+    text-align: center;
+    padding:10px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: blur(4px);
 }
 
-.redes a {
-color: black;
+.bg-text {
+    color:var(--main-color);
+    font-weight: bold;
+    border:3px solid #f1f1f1;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
 
-height:
-    
+
+}
+ 
+.home {
+    background-image: url(img/banner1.jpg);
+}
+
+.custom-section {
+    padding-top: 50px;
+
+}
+
+.tarjeta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card-text {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+footer {
+    background:black ;
+    padding:20px 0;
+    color:var(--main-color);
+    margin-top:40px;
 }

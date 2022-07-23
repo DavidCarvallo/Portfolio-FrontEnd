@@ -3,126 +3,111 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 ,user-scalable=no">
     <title>David Carvallo|Full Stack Developer</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-2""><img id="logo"
-                        class="rounded float-start img-fluid" src="img/logo.png" alt="logo argentina progama">
-                </div>
-                <div class="col-sm-8 redes">
-                    <a href="https://www.instagram.com/pawhpic/" class="fa fa-instagram rounded float-end"
-                        target="_blank"></a>
-                    <a href="https://github.com/DavidCarvallo" class="fa fa-github rounded float-end"
-                        target="_blank"></a>
-                    <a href="https://www.linkedin.com/in/david-carvallo-74690920b/"
-                        class="fa fa-linkedin rounded float-end" target="_blank"></a>
-                </div>
-                <div class="col-sm-2">
-                    <button class="btn btn-default rounded float-end"><a href="#" target="_blank">Login</a></button>
-                </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="" width="110" height="40" class="d-inline-block align-text-top">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Más
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Hard & Soft Skills</a></li>
+                            <li><a class="dropdown-item" href="#">Educación</a></li>
+                            <li><a class="dropdown-item" href="#">Experiencia</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-secondary float-start">Linkedin</button>
+                <button type="button" class="btn btn-secondary float-start">Github</button>
+                <button type="button" class="btn btn-secondary float-start">Instagram</button>
+                <button type="button" class="btn btn-secondary float-start">Login</button>
             </div>
         </div>
-
-
-        <div class="container-fluid ">
-            <div class="row">
-                <div class="col-sm-12">
-                    <img src="img/halo.jpg" class="banner img-fluid ">
-
-                </div>
-            </div>
-        </div>
-
-
-    </header>
-<div class="container">
-    <div class="row">
-    <section>
-        <div class="avatar">
-            <img class="avatar__image" src="img/profile.PNG" />
-        </div>
-        <h1>Sobre mi</h1>
-        <h3>Hola! Me llamo David Carvallo y soy <strong>Full Stack Developer Jr.</strong></h3>
-        <p>Información profesional resumida</p>
-    </section>
+    </nav>
+    <div class="bg home"></div>
+    <div class="bg-text container">
+        <h1>¡Bienvenido a mi Portfolio!</h1>
     </div>
-</div>
-    <hr>
-    <section>
-        <h1>Experiencia</h1>
-        <p>Aquí colocarás toda la
-            información de los lugares
-            donde has trabajado,
-            incluyendo título del puesto,
-            periodo, logo de la empresa,
-            si lo encontrás, y descripción
-            de las actividades realizadas
-            en ese puesto.</p>
-    </section>
-    <hr>
-    <section>
-        <h1>Educación</h1>
-        <p>Escribir toda la
-            información de tu
-            formación académica,
-            certificaciones, cursos,
-            y todo lo relacionado al
-            título con que
-            actualmente contás. Es
-            importante detallar la
-            información de la
-            institución, el logo (de
-            ser posible), nombre,
-            carrera o título
-            estudiado, y en qué
-            periodo o año</p>
-    </section>
-    <hr>
-    <section>
-        <h1>Hard & Soft Skills</h1>
-        <p>Con unaforma de visualización
-            atractiva (por ejemplo:
-            porcentajes) mostrarás tu grado
-            de dominio dehabilidades duras y
-            blandas.Podéstambién generar
-            una sección adicional contu nivel
-            de idiomas.
-        </p>
-    </section>
-    <hr>
-    <section>
-        <h1>Proyectos</h1>
-        <p>En esta sección deberá
-            encontrarse la
-            información sobre los
-            proyectos que
-            desarrollaste o en que
-            te involucraste,
-            incluyendo este
-            portfolio web. Cada
-            proyecto deberá
-            contener el nombre,
-            fecha de realización,
-            descripción y el link a
-            su evidencia. Además,
-            podés ilustrar esta
-            sección con imágenes
-            de los proyectos.</p>
-    </section>
-    <hr>
 
-<footer>
-    <p>Pie de pagina</p>
-</footer>
+    <section class="container custom-section">
+        <div cllass="row">
+            <div class="col-md">
+                <img src="img/perfil.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="tarjeta col-md">
+                <h1>Sobre mi</h1>
+                <p class="card-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container custom-section" data-aos="fade-up"
+    data-aos-anchor-placement="center-center" data-aos-offset="120" data-aos-duration="500">
+        <div cllass="row">
+            <div class="col-md">
+                <img src="img/imgcard.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="tarjeta col-md">
+                <p class="card-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            </div>
+        </div>
+    </section>
+
+   
+
+   
+    <footer>
+        <div class="container">
+            <p>2022</p>
+
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+      </script>
 </body>
+
 </html>
