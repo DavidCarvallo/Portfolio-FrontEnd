@@ -1,5 +1,10 @@
-button  {
-    margin:2px;
+div button  {
+    margin:5px;
+
+}
+
+.nav-text {
+    font-family: 'Roboto Mono', monospace;
 }
 
 body {
