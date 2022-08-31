@@ -23,8 +23,8 @@
   :root {
     --main-color:white;
     --bg-color:#3a3d40;
+    --azulcito:#508AD3;
     }
-
 
 div button  {
     margin:5px;
@@ -32,22 +32,39 @@ div button  {
 }
 
 .btn-redes {
-padding:10px;
+
 border-radius: 5px;
+font-size: 25px;
+
 }
 
 .btn-login {
     padding: 10px 50px;
-    border-radius: 10px;
+    border-radius: 30px;
     font-weight: 900; 
+    font-family: 'IBM Plex Mono', monospace;
+    
 }
 
 .btn-login, .btn-redes {
     background-color:var(--bg-color);
     color: var(--main-color);
-    
 }
- 
+.btn-login:hover,.btn-redes:hover {
+    -webkit-box-shadow: 0px 0px 12px 4px var(--azulcito); 
+    box-shadow: 0px 0px 12px 4px var(--azulcito);
+}
+
+.btn-login:hover,.btn-redes:hover,.nav-item:hover  {
+    text-shadow: 0px 0px 9px var(--azulcito);
+}
+
+.nav-item {
+font-size: 15px;
+font-family: 'IBM Plex Mono', monospace;
+font-weight: bold;
+}
+
 .bg {
     text-align: center;
     padding:10px;
@@ -69,6 +86,7 @@ div h1 {
     padding: 20px;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
+    text-shadow: 0px 0px 9px var(--azulcito);
 
  /*animacion de tipeo */
     display: block;
@@ -102,21 +120,15 @@ div h1 {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #000;
+    background-color: var(--bg-color);
     background-image: linear-gradient(62deg, var(--bg-color) 0%, #181719 100%);
   }
 
 .perfil {
-    border:3px solid var(--bg-color);
     width: 50%;
     position: relative;
     left: 100px;
-    
-
 }
-
-
-
 
 
 .tarjeta {
@@ -134,15 +146,19 @@ div h1 {
     margin-bottom: 30px;
     font-size: 60px;
     font-weight: bold;
-    border-style: inset;
+    text-shadow: 0px 0px 9px var(--azulcito);
     
-    
-
 }
 
 .card-text {
     margin-top: 20px;
     
+}
+
+.presentacion {
+    text-shadow: 0px 0px 9px var(--azulcito);
+    font-style:italic;
+    font-weight: bold;
 }
 
 footer {
