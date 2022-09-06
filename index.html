@@ -23,10 +23,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <!--Animaciones de sroll-->
+<!--Animaciones de scroll-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-dark fixed-top">
@@ -47,32 +46,37 @@
                             <a class="nav-link link-light" href="#about">Sobre mi</a>
                         </li>
                         <li class="nav-item link-dark">
-                            <a class="nav-link link-light" href="#">Educación</a>
+                            <a class="nav-link link-light" href="#education">Educación</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-light" href="#">Experiencia</a>
+                            <a class="nav-link link-light" href="#experience">Experiencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-light" href="#">Proyectos</a>
+                            <a class="nav-link link-light" href="#projects">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-light" href="#">Hard & Soft Skills</a>
+                            <a class="nav-link link-light" href="#skills">Hard & Soft Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-light" href="#">Contacto</a>
+                            <a class="nav-link link-light" href="#contact">Contacto</a>
                         </li>
 
                     </ul>
 
-                    <button type="button" class="btn-redes float-start"><a target="_blank" class="bi bi-linkedin link-light " href="https://www.linkedin.com/in/davidcarvallodev/"></a></button>
-                    <button type="button" class="btn-redes float-start"><a target="_blank" class="bi bi-github link-light " href="https://github.com/DavidCarvallo"></a></button>
-                    <button type="button" class="btn-redes float-start"><a target="_blank" class="bi bi-instagram link-light" href="https://www.instagram.com/pawhpic/"></a></button>
+                    <button type="button" class="btn-redes float-start"><a target="_blank"
+                            class="bi bi-linkedin link-light "
+                            href="https://www.linkedin.com/in/davidcarvallodev/"></a></button>
+                    <button type="button" class="btn-redes float-start"><a target="_blank"
+                            class="bi bi-github link-light " href="https://github.com/DavidCarvallo"></a></button>
+                    <button type="button" class="btn-redes float-start"><a target="_blank"
+                            class="bi bi-instagram link-light" href="https://www.instagram.com/pawhpic/"></a></button>
                     <button type="button" class="btn-login float-start">Login</button>
 
                 </div>
             </div>
         </nav>
         <div class="bg home"></div>
+
         <div class="container">
             <h1>¡Bienvenido a mi Portfolio!</h1>
         </div>
@@ -80,38 +84,23 @@
     <section class="container-fluid about-section" id="about">
         <div class="row">
             <div class="col-md">
-                <img src="img/perfil2.jpeg" class="img-fluid perfil" alt="foto de perfil">
+                <img data-aos="fade-right" src="img/perfil2.jpeg" class="img-fluid perfil" alt="foto de perfil">
             </div>
-            <div class="tarjeta col-md" >
-                <h2 class="titulo" > Sobre mi</h2>
+            <div class="tarjeta col-md">
+                <h2 class="titulo" data-aos="fade-left"> SOBRE MI</h2>
                 <h3>Hola! soy David Carvallo <br><br> <span class="presentacion">Full Stack Developer Jr.</span></h3>
-                <p class="card-text">Desarrollador en constante aprendizaje, estudiante de Matemática y amante de la Fotografía.</p>
+                <p class="card-text">Desarrollador en constante aprendizaje, estudiante de Matemática y Fotógrafo amateur.</p>
             </div>
         </div>
     </section>
 
-   <!--<section class="container custom-section" data-aos="fade-up" data-aos-anchor-placement="center-center"
-        data-aos-offset="120" data-aos-duration="500">
-        <div cllass="row">
-            <div class="col-md">
-                <img src="img/imgcard.jpg" class="img-fluid" alt="...">
-            </div>
-            <div class="tarjeta col-md">
-                <p class="card-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                    nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                    velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                    voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
-                    laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
-                    ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-                    voluptas nulla pariatur?"</p>
-            </div>
+    <section class="educacion-section" id="education">
+        <div class="row" data-aos="fade-right">
+            <div class="col-md align-middle"><h2 class="titulo">EDUCACION</h2></div>
         </div>
-    </section>--> 
+        
 
-
+    </section>
 
 
     <footer>
@@ -122,7 +111,8 @@
     </footer>
 
     <script>
-        AOS.init();
+         AOS.init();
+
     </script>
 </body>
 
