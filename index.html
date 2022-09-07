@@ -23,11 +23,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-<!--Animaciones de scroll-->
+    <!--Animaciones de scroll-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
-    <body>
+
+<body>
     <header>
         <nav class="navbar navbar-expand-lg bg-dark fixed-top">
             <div class="container-fluid">
@@ -82,7 +83,7 @@
             <h1>¡Bienvenido a mi Portfolio!</h1>
         </div>
     </header>
-    <section class="container-fluid about-section" id="about">
+    <section class="container-fluid about-section degradado-gris escala-seccion" id="about">
         <div class="row">
             <div class="col-md">
                 <img data-aos="fade-right" src="img/perfil2.jpeg" class="img-fluid perfil" alt="foto de perfil">
@@ -90,21 +91,104 @@
             <div class="tarjeta col-md">
                 <h2 class="titulo" data-aos="fade-left"> SOBRE MI</h2>
                 <h3>Hola! soy David Carvallo <br><br> <span class="presentacion">Full Stack Developer Jr.</span></h3>
-                <p class="card-text">Desarrollador en constante aprendizaje, estudiante de Matemática y Fotógrafo amateur.</p>
+                <p class="card-text">Desarrollador en constante aprendizaje, estudiante de Matemática y Fotógrafo
+                    amateur.</p>
             </div>
         </div>
     </section>
 
-    <section class="educacion-section" id="education">
+    <section class="container-fluid educacion-section escala-seccion" id="education">
+
         <div class="row" data-aos="fade-right">
-            <div class="col-md align-middle"><h2 class="titulo">EDUCACION</h2></div>
+            <div class="col-md align-middle">
+                <h2 class="titulo">EDUCACION</h2>
+            </div>
         </div>
-        
+
+        <div class="container-education">
+            <!-- Linea vertical -->
+            <div class="container__line"></div>
+
+            <!-- Contenedor de los elementos de la linea de tiempo -->
+            <ul class="container__items">
+                <!-- Cada elemento de la linea de tiempo -->
+                <li class="container__item">
+                    <!-- circulo y titulo -->
+                    <div class="container__top">
+                        <!-- circulo -->
+                        <div class="container__circle"></div>
+
+                        <!-- Título -->
+                        <div class="container__title">
+                            <h3>Universidad Nacional del Nordeste</h3>
+                            <h4>Licenciatura en Matemática</h4>
+                        </div>
+                    </div>
+
+                    <!-- Descripción -->
+                    <div class="container__desc">
+
+                        <p>feb 2018-actualidad</p>
+                    </div>
+                </li>
+
+                <li class="container__item">
+                    <!-- circulo y titulo -->
+                    <div class="container__top">
+                        <!-- circulo -->
+                        <div class="container__circle"></div>
+
+                        <!-- Título -->
+                        <div class="container__title">
+                            <h3>Argentina Programa</h3>
+                            <h4>Full Stack Developer Jr.</h4>
+                        </div>
+                    </div>
+
+                    <!-- Descripción -->
+                    <div class="container__desc">
+                        <p>Argentina Programa es un curso avalado por el Ministerio de Desarrollo Productivo, la Cámara
+                            de la Industria Argentina del Software (CESSI) y el Instituto Nacional de Tecnología
+                            Industrial (INTI) que consta de dos partes, la primera #SeProgramar donde se adquieren los
+                            fundamentos básicos de la programación y #YoProgramo donde se profundizan los conocimientos
+                            y se adquieren las habilidades y herramientas necesarias para convertirse en programadores
+                            web full-stack junior.</p>
+                        <p>Nov 2021-Ene 2023</p>
+                    </div>
+                </li>
+
+                <li class="container__item">
+                    <!-- circulo y titulo -->
+                    <div class="container__top">
+                        <!-- circulo -->
+                        <div class="container__circle"></div>
+
+                        <!-- Título -->
+                        <div class="container__title">
+                            <h3>Oracle Next Education + Alura Latam</h3>
+                            <h4>Jr. Developer</h4>
+                        </div>
+                    </div>
+
+                    <!-- Descripción -->
+                    <div class="container__desc">
+                        <p>ONE es un programa de educación y empleabilidad con el objetivo social de formar personas en
+                            tecnología y conectarlas con el mercado laboral a través de a través de empresas
+                            colaboradoras.</p>
+                        <p>Jul 2022- Ene 2023</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="container-fluid experience-section degradado-gris escala-seccion" id="experiencie">
 
     </section>
 
 
-    <footer>
+    <footer class="bg-dark">
         <div class="container">
             <p>2022</p>
 
@@ -112,7 +196,7 @@
     </footer>
 
     <script>
-         AOS.init();
+        AOS.init();
 
     </script>
 </body>
