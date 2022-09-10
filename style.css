@@ -24,6 +24,7 @@
     --main-color:white;
     --bg-color:#3a3d40;
     --azulcito:#508AD3;
+    --bg-dark:#212529;
     }
 
     /*navbar*/
@@ -51,8 +52,9 @@ font-size: 25px;
 }
 
 .btn-login, .btn-redes {
-    background-color:var(--bg-color);
+    background-color:var(--bg-dark);
     color: var(--main-color);
+    border-color:var(--main-color) ;
 }
 .btn-login:hover,.btn-redes:hover{
     -webkit-box-shadow: 0px 0px 12px 4px var(--azulcito); 
@@ -71,25 +73,24 @@ font-weight: bold;
 }
 /*fin navbar*/
 
-
 .bg {
     text-align: center;
     padding:10px;
     height: 100vh;
     background-size: cover;
     box-sizing: border-box;
-    filter: blur(4px);
+    filter: blur(2px);
     
 }
 
 .home {
     background-image: url(img/banner1.jpg);
+   
 }
 
 div h1 {
     color:var(--main-color);
     font-weight: bold;
-    /*border:3px solid #f1f1f1;*/
     position:absolute;
     top:50%;
     left: 50%;
@@ -104,9 +105,9 @@ div h1 {
     display: block;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 32ch;
+    width: 31ch;
 
-    animation: typing 4s steps(32),
+    animation: typing 4s steps(31),
     blink .4s infinite step-end alternate;
 
     overflow: hidden;
@@ -134,7 +135,7 @@ div h1 {
 .about-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     vertical-align: middle; 
 }
@@ -161,10 +162,12 @@ div h1 {
     margin-bottom: 30px;
     font-size: 100px; 
     font-weight: bold;
+    
+    
 }
 
 
-.presentacion {
+.fsdeveloper {
     text-shadow: 0px 0px 9px var(--azulcito);
     font-style:italic;
     font-weight: bold;
@@ -179,7 +182,7 @@ div h1 {
     font-family: 'IBM Plex Mono', monospace;
     width: 100%;
     height: 100vh;
-    display: inline;
+    display: inline-block;
     
     
  }

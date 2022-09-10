@@ -16,8 +16,9 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  
     <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +31,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="img/logo2.png" alt="" width="110" height="60" class="d-inline-block align-text-top">
@@ -77,20 +78,22 @@
                 </div>
             </div>
         </nav>
-        <div class="bg home"></div>
+        <div class="bg home">
+        </div>
 
-        <div class="container">
+        <div class="container-fluid ">
             <h1>¡Bienvenido a mi Portfolio!</h1>
         </div>
     </header>
     <section class="container-fluid about-section degradado-gris escala-seccion" id="about">
         <div class="row">
             <div class="col-md">
-                <img data-aos="fade-right" src="img/perfil2.jpeg" class="img-fluid perfil" alt="foto de perfil">
+                <img data-aos="zoom-out-right" src="img/perfil2.jpeg" class="img-fluid perfil" alt="foto de perfil">
             </div>
-            <div class="tarjeta col-md">
-                <h2 class="titulo" data-aos="fade-left"> SOBRE MI</h2>
-                <h3>Hola! soy David Carvallo <br><br> <span class="presentacion">Full Stack Developer Jr.</span></h3>
+            <div class="tarjeta col-md " >
+                <h2 class="titulo" data-aos="zoom-in-up" > SOBRE MI</h2>
+                <h3>Hola! soy David Carvallo <br><br> <span class="fsdeveloper">Full Stack Developer Jr.</span></h3>
+                <br>
                 <p class="card-text">Desarrollador en constante aprendizaje, estudiante de Matemática y Fotógrafo
                     amateur.</p>
             </div>
@@ -107,7 +110,8 @@
 
         <div class="container-timeline">
             <!-- Linea vertical -->
-            <div class="container__line"></div>
+            <div class="container__line" data-aos="fade-up"
+            data-aos-duration="3000"></div>
 
             <!-- Contenedor de los elementos de la linea de tiempo -->
             <ul class="container__items">
@@ -116,7 +120,7 @@
                     <!-- circulo y titulo -->
                     <div class="container__top">
                         <!-- circulo -->
-                        <div class="container__circle"></div>
+                        <div class="container__circle" data-aos="zoom-out-right"></div>
 
                         <!-- Título -->
                         <div class="container__title">
@@ -139,7 +143,7 @@
                     <!-- circulo y titulo -->
                     <div class="container__top">
                         <!-- circulo -->
-                        <div class="container__circle"></div>
+                        <div class="container__circle" data-aos="zoom-out-right"></div>
 
                         <!-- Título -->
                         <div class="container__title">
@@ -168,7 +172,7 @@
                     <!-- circulo y titulo -->
                     <div class="container__top">
                         <!-- circulo -->
-                        <div class="container__circle"></div>
+                        <div class="container__circle" data-aos="zoom-out-right"></div>
 
                         <!-- Título -->
                         <div class="container__title">
@@ -201,7 +205,8 @@
 
         <div class="container-timeline">
             <!-- Linea vertical -->
-            <div class="container__line-white"></div>
+            <div class="container__line-white" data-aos="fade-up"
+            data-aos-duration="3000"></div>
 
             <!-- Contenedor de los elementos de la linea de tiempo -->
             <ul class="container__items">
@@ -210,7 +215,7 @@
                     <!-- circulo y titulo -->
                     <div class="container__top">
                         <!-- circulo -->
-                        <div class="container__circle-white"></div>
+                        <div class="container__circle-white" data-aos="zoom-out-right"></div>
 
                         <!-- Título -->
                         <div class="container__title">
@@ -232,6 +237,11 @@
             </ul>
         </div>
     </section>
+
+    <section>
+
+    </section>
+
 
 
     <footer class="bg-dark">
