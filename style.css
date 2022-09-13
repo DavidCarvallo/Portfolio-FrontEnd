@@ -59,8 +59,8 @@ font-size: 25px;
     border-color:var(--main-color) ;
 }
 .btn-login:hover,.btn-redes:hover{
-    -webkit-box-shadow: 0px 0px 12px 4px var(--azulcito); 
-    box-shadow: 0px 0px 12px 4px var(--main-color);
+    -webkit-box-shadow: 0px 0px 7px 2px var(--azulcito); 
+    box-shadow: 0px 0px 7px 2px var(--main-color);
 }
 
 .btn-login:hover,.btn-redes:hover,.nav-item:hover  {
@@ -331,15 +331,70 @@ div h1 {
       color: var(--bg-dark);
   }
 
+/*Fin sección proyectos*/
+
+/*Sección Skills*/
+
+.skills-section {
+    display: inline !important;
+}
+
+.progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 20px
+}
+
+.progress {
+    height: 20px;
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible
+}
 
 
 
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    top: -30px;
+    right: -25px
+}
+
+.progress .progress-bar:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg)
+}
 
 footer {
     padding:20px 0;
     color:var(--main-color);
     margin-top:40px;
     text-align: center;
+}
+
+footer a {
+    text-decoration: none;
 }
 
 
