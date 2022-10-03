@@ -11,14 +11,26 @@
       font-size: 58%;
     }
   }
-  
-  /* 460px / 16px = 28.75em */
-  @media (max-width: 28.75em) {
+
+  /* 650px / 16px = 40.625em */
+  @media (max-width: 40.625em) {
     html {
       font-size: 55%;
     }
+    .titulo {
+        font-size: 50px !important;
+    }
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+    .titulo {
+        font-size: 50px !important;
+    }
     
   }
+
+  
   
   :root {
     --main-color:white;
@@ -261,7 +273,7 @@ div h1 {
   .projects-section {
     align-items: center;
       background-image: linear-gradient(0deg, var(--bg-dark) 0%, var(--bg-dark) 50%, #ffffff 50%, #ffffff 100%);
-      display: inline-block;
+      display: initial;
       justify-content: center;
       min-height: 100vh;
       margin: 0 auto;
