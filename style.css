@@ -35,7 +35,10 @@
     /*navbar*/
 div button  {
     margin:5px;
-    
+}
+nav button a {
+   vertical-align: middle;
+   margin:1px
 }
 section a{
     text-decoration: none;
@@ -43,9 +46,8 @@ section a{
 }
 .btn-redes {
 
-border-radius: 50%;
+border-radius: 100%;
 font-size: 25px;
-
 }
 
 .btn-login {
