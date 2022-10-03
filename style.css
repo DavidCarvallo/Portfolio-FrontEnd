@@ -27,6 +27,11 @@
     .titulo {
         font-size: 50px !important;
     }
+
+    .card-py {
+        width: 120px !important ;
+        height: 180px !important;
+    }
     
   }
 
@@ -273,7 +278,7 @@ div h1 {
   .projects-section {
     align-items: center;
       background-image: linear-gradient(0deg, var(--bg-dark) 0%, var(--bg-dark) 50%, #ffffff 50%, #ffffff 100%);
-      display: initial;
+      display: inline-block;
       justify-content: center;
       min-height: 100vh;
       margin: 0 auto;
